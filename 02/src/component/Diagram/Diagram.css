@@ -1,0 +1,27 @@
+.legend::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.enter::before{
+  background-color: orange;
+}
+
+.car::before{
+  background-color: blue;
+}
+
+.food::before{
+  background-color: green;
+}
+
+.element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
